@@ -26,8 +26,16 @@ public class FairyGUI_unreal : ModuleRules
 			new string[]
 			{
 				"Core",
-				"FairyGUI_unrealLibrary",
-				"Projects"
+                "CoreUObject",
+                "Projects",
+                "Engine",
+                "InputCore",
+                "SlateCore",
+                "Slate",
+                "UMG",
+                "ImageWrapper",
+                "RenderCore",
+                "RHI"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
