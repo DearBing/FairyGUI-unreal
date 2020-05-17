@@ -18,7 +18,8 @@ public class FairyGUI_unreal : ModuleRules
 		PrivateIncludePaths.AddRange(
 			new string[] {
 				// ... add other private include paths required here ...
-			}
+                 "FairyGUI_unreal"
+            }
 			);
 			
 		

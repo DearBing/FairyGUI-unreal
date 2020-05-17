@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+ï»¿// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -16,7 +16,7 @@ class FAIRYGUI_UNREAL_API UMeshUIBase : public UWidget
 
 public:
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ChartConfig", Meta = (DisplayName = "²ÄÖÊÇò"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ChartConfig", Meta = (DisplayName = "æè´¨çƒ"))
 		UMaterialInterface* Materrial;
 
 public:
@@ -36,10 +36,10 @@ protected:
 	TArray<FSlateVertex> VertexData;
 	TArray<SlateIndex> IndexData;
 
-	float FirstX;//µÚÒ»¸öXÖµ
-	float FirstY;//µÚÒ»¸öYÖµ
-	float Width;//¿í¶ÈÖµ
-	float Height;//¸ß¶ÈÖµ
+	float FirstX;//ç¬¬ä¸€ä¸ªXå€¼
+	float FirstY;//ç¬¬ä¸€ä¸ªYå€¼
+	float Width;//å®½åº¦å€¼
+	float Height;//é«˜åº¦å€¼
 private:
 
 	TSharedPtr<class SUIMeshWidget> MyMesh;
